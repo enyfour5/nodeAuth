@@ -42,7 +42,7 @@ app.use(session({
   resave: true
 }));
 
-// passport
+// passport usage
 
 app.use(passport.initialize());
 app.use(passport.session());
